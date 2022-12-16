@@ -1,0 +1,90 @@
+main{
+    width: 940px;
+    margin: 0 auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+body{
+    background: url("ImagenesPaguina/wallpaperflare.com_wallpaper\ \(2\).jpg");
+}
+header{
+    padding: 20px 0px;
+}
+header img{
+    width: 25%;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+    position: absolute;
+    top: 101.8025px;
+    right: 0px;
+}
+nav li{
+    display: inline;
+    margin: 0 0  0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: crimson;
+}
+
+
+form{
+    margin: 40px 0;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.boton{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    margin: 25px 0;
+    transition: 1s all;
+    cursor: pointer;
+}
+.boton:hover{
+    background: red;
+    transform: scale(1.20);
+}
+
+
+
+footer{
+    text-align: center;
+}
+#imagenpierdepaguina{
+    width: 15%;
+    padding-top: 25px;
+}
+.piedepaguina{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 13px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}

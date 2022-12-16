@@ -1,0 +1,200 @@
+body{
+    background: url("ImagenesPaguina/wallpaperflare.com_wallpaper (4).jpg");
+}
+
+
+header h1{
+    font-style: italic; 
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 25px;
+}
+
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    text-align: center;
+    position: relative;
+    height: 60px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    font-style: italic;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: crimson;
+}
+
+
+.introduccion_general{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+ 
+.informacion_profesional{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+.informacion_profesional h2{
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 20px;
+    text-align: left;
+    font-style: italic;
+}
+.informacion_profesional p{
+    padding-top: 20px;
+    margin: 0 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.resultados{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+.resultados h2{
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 20px;
+    text-align: right;
+    font-style: italic;
+}
+.resultados p{
+    margin: 20px 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+.mapa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+.mapa h2{
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-style: italic; 
+}
+.mapa p{
+    margin: 10px 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.video{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 25px; 
+    text-align: center;  
+}
+.video h2{
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: right;
+    font-style: italic;  
+}
+.video p{
+    margin: 20px 20px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+.habilidades_puntuales{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+.habilidades_puntuales h2{
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: right;
+    font-style: italic;
+}
+.habilidades_puntuales p{
+    margin: 20px 20px;
+}
+.habilidades_puntuales ul{
+    padding-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    padding-left: 110px;
+}
+.habilidades_puntuales li{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+}
+.Yo{
+    width: 35%;
+    height: 25%;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 100px;
+}
+.Yo:hover{
+    opacity: 0.95;
+    transition: 400ms;
+}
+
+
+
+
+footer{
+    text-align: center;
+    border-top: 2px solid gainsboro;
+}
+footer img{
+    width: 15%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+footer p{
+    font-size: 13px;
+    padding-bottom: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+

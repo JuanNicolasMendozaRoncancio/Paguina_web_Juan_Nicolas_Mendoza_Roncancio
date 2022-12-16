@@ -1,0 +1,114 @@
+body{
+    background: url("ImagenesPaguina/Backgraound2.jpg");
+}
+header{
+    padding: 20px 0px;
+}
+header img{
+    width: 25%;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+    position: absolute;
+    top: 101.8025px;
+    right: 0px;
+}
+nav li{
+    display: inline;
+    margin: 0 0  0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: crimson;
+}
+
+
+
+
+
+
+.servicios{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px
+}
+.servicios li{
+    display: inline-block;
+    text-align: center;
+    width:30%;
+    vertical-align:top ;
+    margin: 0 1.5%;
+    padding: 30px 20px ;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.servicios li:hover{
+    border-color: crimson;
+}
+.servicios li:hover h2{
+    font-size: 33px;
+}
+.servicios li:active{
+    border-color: darkred;
+}
+.servicios h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+#Analisis{
+    width:50%;
+    margin-top: 10px ;
+}
+#Modelos{
+    width: 50%;
+    margin-top: 10px ;
+}
+#IA{
+    width: 50%;
+    margin-top: 10px ;
+}
+.servicio_descripcion{
+    margin-top: 10px;
+    font-size: 18px;
+}
+#descricion{
+    width: 940 px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+
+footer{
+    text-align: center;
+}
+#imagenpierdepaguina{
+    width: 15%;
+    padding-top: 25px;
+}
+.piedepaguina{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 13px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width = device-width">
+        <title>Contacto Juan Nicolas Mendoza Roncancio</title>
+        <link rel="stylesheet", href="reset.css">
+        <link rel="stylesheet", href="EstilocontactF.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img id = "ImganeServicios" src="ImagenesPaguina/781bed47-c38d-4485-8930-6326bc317c17.jpg"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Incio</a></li>
+                        <li><a href="ServiciosJNMRF.html">Servicios</a></li>
+                        <li><a href="ContactoF.html">Contacto</a></li>
+                    </ul>
+                </nav> 
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <label for="nombreyapellido">Nombre y Apellido</label>
+                <input type="text" id = "nombreyapellido" class="input-padron" required>
+
+                <label for="Empresa">Empresa</label>
+                <input type="text" id = "Empresa" class="input-padron" required>
+
+                <label for="correoelectronico">Correo Electronico</label>
+                <input type="email" id = "correoelectronico" class="input-padron" required placeholder="email@dominio">
+
+                <label for="telefono">Telefono</label>
+                <input type="tel" id = "telefono" class="input-padron" placeholder="(XX) xxx xxx xx">
+
+
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+
+
+                <fieldset>
+                    <legend> 
+                        Contactemos por alguna de estas formas:
+                    </legend>
+
+                    <label for="radioemail"><input type="radio" name = "Contacto" value="email" id="radioemail">E-mail</label>
+    
+                    <label for="radiotelefono"><input type="radio" name = "Contacto" value="Telefono" id="radiotelefono">Telefono</label>
+    
+                    <label for="radiowhatsapp"><input type="radio" name = "Contacto" value="WhatsApp" id="radiowhatsapp">WhatsApp</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Como te enteraste de mi?</legend>
+                    <select>
+                        <option>Linkdin</option>
+                        <option>Referencia Personal</option>
+                        <option>Proceso de seleccion</option>
+                    </select>
+                </fieldset>
+
+                <input type="submit" value="Contactar" class = "boton">
+            </form>           
+        </main>
+
+        <footer>
+            <img id="imagenpierdepaguina" src="ImagenesPaguina\7ac15fe3-f6f0-44d0-a01b-1bd637857494.jpg">
+            <p class="piedepaguina">
+                @Juan Nicolas Mendoza Roncancio<br>Imagen generada en <a href="https://deepai.org/">Esta pagina</a>
+            </p>
+        </footer>
+    </body>
+</html>
